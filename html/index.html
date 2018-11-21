@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+     <meta charset="utf-8">
+	<title>
+        <div class="title">Chatbot No. 5</div>
+    </title>
+    <link rel="stylesheet" href="./chat.css">
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="chatTop">
+            
+        </div>
+        <div class="chatContent" id = "chatContent"></div>
+
+
+        <div class="chatBottom">
+            <input class="text" id="text" type="text" name="text" id="text" value= "" placeholder="Escriba su mensaje aqui" maxlength="140"/>
+            <input class="button" id="button" type="submit" name="submit" value="Enviar" onclick="send_message()">
+        </div>
+    </div>
+    <script type="text/javascript" src="functions.js"></script>
+</body>
+</html>
